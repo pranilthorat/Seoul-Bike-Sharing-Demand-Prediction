@@ -33,7 +33,7 @@
 * To do so, we'll need to build a model that will predict numbers of rental bikes at each hour.
 
 * As a result, the dataset consists of various features, some of which will play a major role in predicting the dependent variable, i.e. the number of rental bikes.
-* 
+ 
 
 
 
