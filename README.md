@@ -33,9 +33,11 @@
 * To do so, we'll need to build a model that will predict numbers of rental bikes at each hour.
 
 * As a result, the dataset consists of various features, some of which will play a major role in predicting the dependent variable, i.e. the number of rental bikes.
-* 
+
+
 
 ![image](https://user-images.githubusercontent.com/92014177/163594683-902ca81e-2d75-4952-a12b-e9760737d5b1.png)
+
 
 
 
@@ -113,11 +115,10 @@
 
 <h2> :book: Problem Statement:</h2>
 
-* The customer can book a room through the Airbnb website. To explore more, the customer is moving to the Queens, Bronx, Staten Island, Brooklyn, and Manhattan neighborhoods.
+* The main objective is to build a predictive model, which could help to train a model to predict the number of bike rentals of the year given the weather conditions. 
 
-* The customer requires assistance in identifying a number of bookings in each borough country and guiding that customer in selecting the best place to live at an affordable cost, analyzing the room's price so that the customer can afford it, and selecting the appropriate room type based on their needs.
+* This would in turn help to predict quickly and efficiently.
 
-* The quantity of reviews, the number of reviews per month, and the availability of the rooms will all meet these criteria. All of these insights will be obtained through EDA and a thorough comprehension of the data.
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
