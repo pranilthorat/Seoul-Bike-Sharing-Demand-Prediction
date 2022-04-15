@@ -34,6 +34,8 @@
 
 * As a result, the dataset consists of various features, some of which will play a major role in predicting the dependent variable, i.e. the number of rental bikes.
 
+![image](https://user-images.githubusercontent.com/92014177/163594683-902ca81e-2d75-4952-a12b-e9760737d5b1.png)
+
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
