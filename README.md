@@ -33,6 +33,7 @@
 * To do so, we'll need to build a model that will predict numbers of rental bikes at each hour.
 
 * As a result, the dataset consists of various features, some of which will play a major role in predicting the dependent variable, i.e. the number of rental bikes.
+* 
 
 
 
@@ -125,24 +126,25 @@
 
 <h2> :book: Conclusion:</h2>
 
-* We've done null value treatment, outlier removal, statistical tests, transformation, and EDA since loading the data.
+* Since loading the data, we've done null value treatment, data transformation, data skewness, outlier removal, multicollinearity removal, label encoding, feature engineering, and finally feature selection.
 
-* To help, exploratory data analysis was used. Customers can examine and comprehend new facts using the data
+* We have implemented three models, such as Linear Regression, Polynomial Linear Regression and Random Forest Regressor In which our linear regression model was underfitted, the polynomial regression model failed to deliver satisfactory results.
 
-* As a result, with the help of these EDA, clients are able to obtain a higher number of crucial information
+* We then implemented the random forest regression model, which resulted in an overfit model.
 
-* Customers can see that choose the place to stay in based on their budget will be highly beneficial to them.
+* On the random forest regression model, we performed hyperparameter tuning using grid search CV to overcome such problems.
 
-* They will also find seeing the reviews of different hosts and different rooms based on the location very informative.
+* As a result, we were able to create an ideal model. Now we can use this model to predict how many bikes will be rented each hour in order to keep the public's rental bike supply stable.
 
-* Customers will have access to information about various hosts and places.
+* On our training data, our r2 score for hyper parameter tuning using Grid Search CV on random forest regression was 94.95 % accuracy, while on our testing data, it was 86.25 % accuracy.
+
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-* Ppt Presentation Link:-https://drive.google.com/file/d/11HlDbxsOjuewyYryelE1NxJSNhdoAwbY/view?usp=sharing
+* Ppt Presentation Link:-https://drive.google.com/file/d/1_oNRjyOrH64Y1E7lkb9VIV0pWKPSaIrL/view?usp=sharing
 
-* Video Presentation Link:-https://drive.google.com/file/d/1kbSnLHvZBgS4RGwCiimMuDs9aW6g5iHZ/view?usp=sharing
+* Video Presentation Link:-https://drive.google.com/file/d/1osZ8GIQ6zHwpOMrOXRWL48s82TR7t37P/view?usp=sharing
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
