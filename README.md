@@ -5,7 +5,6 @@
 
 ![image](https://user-images.githubusercontent.com/92014177/163593183-d4b01216-3d3a-492c-ba63-8fc93e6eaf4a.png)
 
-![image](https://user-images.githubusercontent.com/92014177/163580442-c8f454dd-4b91-4cc5-a20d-d450f17235a1.png)
 
 <p> </p>
 
@@ -25,11 +24,16 @@
 
 <h2> :book: Introduction:</h2>
 
-* Airbnb is an online marketplace for lodging, principally homestays for vacation rentals, and tourism activities based in the United States. The platform can be accessed by a website or a mobile app. Airbnb is a shortened version of AirBedandBreakfast.com, which was its original name.
+* In this dataset, the bikes are rented to the public every hour. 
 
-* From 2011 through 2019, the data we have is limited to New York City. From this data, we may extract some key information about various hosts and locations. The main goal is to assist our customers in making decisions about different types of rooms in different places. Customers will be able to know more about different hosts, such as the cost of a room per night and reviews of different hosts. Customers may be able to form an opinion on the host's service as a result of analysis. Customers will be able to choose a room type and spend the night in room depending on their budget.
+* As a result, it is important that the rental bike is ready and available to the public at the correct time, as this decreases wait times. Maintaining a consistent supply of rental bikes for the city eventually becomes a major challenge.
 
-![image](https://user-images.githubusercontent.com/92014177/163581172-7646f312-b9f5-4008-bdd6-17f2528d5124.png)
+* As a result, our main goal is to predict the number of bikes required at each hour in order to maintain a stable supply of rental bikes.
+
+* To do so, we'll need to build a model that will predict numbers of rental bikes at each hour.
+
+* As a result, the dataset consists of various features, some of which will play a major role in predicting the dependent variable, i.e. the number of rental bikes.
+
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -37,13 +41,20 @@
 
 <h2> :book: Abstract:</h2>
 
-* Our team has extensive experience with Airbnb Booking Analysis. We intend to concentrate solely on New York City. 
+* The goal of this project is to combine the historical bike usage patterns with the weather data to forecast bike rental demand. The data set consists of hourly rental data spanning two years.
 
-* The investigation is mostly focused on the boroughs of Brooklyn, Manhattan, Queens, Staten Island, and the Bronx.
+* Exploratory Data Analysis is done on the dataset and compares the target variable with the other variables to find the distribution of the graph.
 
-*  This information includes information about the host, lodging prices, and reviews, among other things.
+* This information includes information about the host, lodging prices, and reviews, among other things.
 
-* With the use of exploratory data analysis, data wrangling, visualization, and other tools, we can extract a lot of information from the analysis.
+* We look for null values which were not found and outliers.
+
+* We also perform correlation analysis to extract out the important and relevant features from the dataset and later perform a train test split to train the model.
+
+* The main objective is to build a predictive model, which could help to train a model to predict the number of bike rentals per hour given the weather conditions.
+
+* This would in turn help to predict quickly and efficiently.
+
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -52,35 +63,47 @@
 <h2> :book: Dataset information:</h2>
 
 
-* Id-Id of Each row
+* Date: year-month-day
 
-* Name	-Name of Each room given by host
 
-* Host_id –Id of each Host
+* Rented Bike count - Count of bikes rented at each hour
 
-* Host_name –Name of each Host
 
-* Neighbourhood group – Borough country Name
+* Hour - Hour of the day
 
-* Neighbourhood –All cities of Each Borough Country
 
-* Latitude and Longitude –Geographical Data of Borough Country
+* Temperature-Temperature in Celsius
 
-* Room type –Name of each room type
 
-* Price –price of each rooms
+* Humidity - %
 
-* Minimum Nights- price for Minimum nights to stay
 
-* Number of review- Total reviews given by customer
+* Wind Speed - m/s
 
-* Last reviews- Date of last reviews given by customer
 
-* Reviews per month –Average review rate per month
+* Visibility - 10m
 
-* Calculated host listing count –Count of Host listing in Airbnb
 
-* Availabilty_365 – Number of days availability
+* Dew point temperature - Celsius
+
+
+* Solar radiation - MJ/m2
+
+
+* Rainfall - mm
+
+
+* Snowfall - cm
+
+
+* Seasons - Winter, Spring, Summer, Autumn
+
+
+* Holiday - Holiday/No holiday
+
+
+* Functional Day - (Non-Functional Day), Fun (Functional Day)
+
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
